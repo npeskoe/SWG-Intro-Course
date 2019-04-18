@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Foolery Restaurant and Bar</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<style type="text/css">
+
+	h1 {
+		text-align: center;
+		font-family: 'Roboto', sans-serif;
+	}	
+	#footer {
+		text-align: center;
+	}
+
+	nav .btn {
+	background-color: gray;
+	color: white;
+	}
+	
+	nav .btn:visited {
+		color: #B2DBBF
+	}
+	nav .btn:hover {
+		font-weight: bold;
+	}
+	a {
+		text-decoration: none;
+	}
+	#contactform {
+		text-align: center;
+	}
+	label.required {
+		font-weight: bold;
+	}
+	.col-centered{
+	float: none;
+	margin: 0 auto;
+	}
+	.form-actions{
+		margin:0;
+		text-align: center;
+	}
+	.btn-primary {
+		margin-top: 15px;
+	}
+	label.required {
+		font-weight: bold;
+	}
+
+</style>
+
+</head>
+<body>
+<h1>The Foolery Restaurant and Bar</h1>
+	<hr>
+<p>
+	<nav>
+		<a href=theFooleryIndex.html button class="btn"><i class="fa fa-home"></i></button></a>
+		<a class="btn" href="theFooleryMenu.html">Menu</a>
+		<a class="btn" href="theFooleryContact.html">Contact Us</a>
+	</nav>
+</p>
+	<hr>
+
+<form id="contactForm" action="post" class="needs-validation" novalidate>
+
+<div class="form-group">
+  <div class="form-group col-md-3 col-centered">
+    <label for="Name" class="required">Name:</label>
+    <input type="text" class="form-control" id="name" required>
+    <div class="valid-feedback">Looks good!
+   </div></div></div>
+ 
+<div class="form-group">
+<div class="form-group col-md-3 col-centered">
+  	<label for="Email" class="required">Email:</label>
+	<input type="text" class="form-control" id="email" required>
+	<div class="valid-feedback">Looks good!
+</div></div></div>
+
+ <div class="form-group">
+ <div class="form-group col-md-3 col-centered">
+  	<label for="Phone" class="required">Phone:</label>
+	<input type="phone" class="form-control" id="phone" required>
+	<div class="valid-feedback">Looks good!
+</div></div>
+
+<div class="form-group">
+<div class="col-md-3 col-centered">
+<label for="Reason for Inquiry">Reason for Inquiry:</label>
+<select class="form-control" id="addinfo">
+	<option>Catering</option>
+	<option>Private Party</option>
+	<option>Feedback</option>
+	<option>Other</option>
+</select>
+</div></div>
+
+<div class="form-group">
+<div class="col-md-3 col-centered">
+<label for="addinfo">Additional Information:</label>
+<textarea class="form-control" id="addinfo" rows="3"></textarea>
+</div>
+
+
+<div class="form-group">
+<div class="col-md-3 col-centered">
+<label for="beentorestaurant">Have you been to the restaurant?</label>
+	<div class="form-check form-check-inline">
+		<input class="form-check-input" type="radio" name="beentorestaurant" id="havenotbeen" value="No" checked="checked">
+		<label class="form-check-label" for="havenotbeen">No</label></div>
+	<div class="form-check form-check-inline">
+		<input class="form-check-input" type="radio" name="beentorestaurant" id="havebeen" value="Yes">
+		<label class="form-check-label" for="havebeen">Yes</label>
+	</div></div></div>
+
+<div class="form-group">
+<div class="form-group col-md-3 col-centered">
+<label for="contactday">Best days to contact you?</label><div>
+	<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Monday">
+	  <label class="form-check-label" for="inlineCheckbox1">M</label>
+	</div>
+	<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Tuesday">
+	  <label class="form-check-label" for="inlineCheckbox2">T</label>
+	</div>
+	<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="Wednesday">
+	  <label class="form-check-label" for="inlineCheckbox3">W</label>
+	</div>
+	<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="Thursday">
+	  <label class="form-check-label" for="inlineCheckbox2">Th</label>
+	</div>
+	<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="Friday">
+	  <label class="form-check-label" for="inlineCheckbox3">F</label>
+	</div></div>
+
+	<div class="form-actions">
+      <button type="submit" class="btn btn-primary mb-2">Send Request</button>
+    </div>
+
+  <script>
+
+  	var form = document.querySelector('.needs-validation')
+
+  	form.addEventListener('submit', function(event) {
+  		if (form.checkValidity() === false) {
+  			event.preventDefault();
+  			event.stopPropagation();
+  		}
+  		form.classList.add('was-validated');
+  	})
+
+  </script>
+
+  <noscript>
+      <div style="border: 1px solid purple; padding: 10px">
+        <span style="color:red">JavaScript is not enabled!</span>
+      </div>
+    </noscript>
+
+</form>
+
+</body>
+	<hr>
+		<div id=footer>123 E Main St Louisville, KY 40206<div>502-438-9138</div></footer>
+	<hr>
+</html>

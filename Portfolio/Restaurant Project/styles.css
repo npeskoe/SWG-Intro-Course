@@ -1,0 +1,48 @@
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+#main {
+	background-color: #B2DBBF;
+}
+#footer {
+	text-align: center;
+}
+
+nav .btn {
+	background-color: gray;
+	color: white;
+}
+
+nav .btn:visited {
+	color: #B2DBBF
+}
+nav .btn:hover {
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+header {
+	text-align: center;
+}
+.carousel-item{
+    height: 200px;
+} 
+.carousel-item img{
+    height: 200px;
+}
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+.carousel-caption {
+	color: black;
+}
+.carousel-caption h3 {
+	font-size: 40px;
+}
+.col-centered{
+float: none;
+margin: 0 auto;
+}

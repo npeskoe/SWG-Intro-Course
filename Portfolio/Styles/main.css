@@ -1,0 +1,78 @@
+/*
+Creator: Nick Peskoe
+Date created: 3/11/19
+Date last modified: 3/11/19
+*/
+body {
+	background-color: #BFD7EA;
+	font-family: arial, helvetica, sans-serif;
+	color: #0d1f2d
+	max-width: 900px;
+	margin: 20 auto;
+}
+header, footer {
+	background-color: #546a7b;
+	color: #fef9ff;
+	height: 100px;
+	text-align: center;
+	padding: 30px 10px 20px 10px;
+}
+h1 {
+    font-size: 2.5em;
+}
+nav {
+	border-top: 3px dashed #546a7b;
+	border-bottom: 3px dashed #546a7b;
+	margin-top: 4px;
+	
+}
+.clear-float {
+    clear:both;
+}
+article img {
+   float:left;
+}
+.right-content {
+    float:left;
+}
+article {
+    margin-bottom: 16px;
+}
+nav a {  
+	background-color: #546a7b;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    display: block;
+    margin: 20px 20px;
+    width: 100px;
+    float:left;
+    text-align: center;
+}
+caption {
+    		font-weight: bold;
+    		font-size: 1.2em;
+    		margin-bottom: 8px;
+    }
+
+table, th, td {
+			border: 1px solid #0d1f2d;
+			border-collapse: collapse;
+			padding: 5px 10px;	
+	}
+table {
+			margin: auto;
+			width: 90%
+	}
+tr {
+			height: 30px
+	}
+
+th {
+			background-color: #546a7b;
+			color: #f3eded;
+	}
+tbody tr:nth-child(odd) {
+			background-color: #0A8754
+	}
